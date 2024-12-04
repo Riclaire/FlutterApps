@@ -44,9 +44,13 @@ class _HomepageState extends State<Homepage> {
               )
             ),
             child: Padding(padding: EdgeInsets.only(left: 20, right: 20),
-            child: Column(
+            
+            child: SingleChildScrollView(
+              child: Column(
+              
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                SizedBox(height: 70,),
                 TextField(
                   decoration: InputDecoration(
                     suffixIcon: Icon(Icons.check, color: Colors.grey,),
@@ -99,7 +103,8 @@ class _HomepageState extends State<Homepage> {
                 ),)
               ],
             ),),
-           ),)
+            )
+           ),),
         ],
       ),
     );
