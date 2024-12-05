@@ -18,12 +18,12 @@ class _HomepageState extends State<Homepage> {
             width: double.infinity,
             decoration: BoxDecoration(
               gradient: LinearGradient(colors: [
-                Color(0xffB81736),
-                Color(0xff281537)
+                Color(0xffB81750),
+                Color(0xff281558)
               ])
             ),
             child: Padding(padding: EdgeInsets.only(top: 60, left: 22),
-            child: Text('Hello\nHomebrew\nComputer-Club', style: TextStyle(
+            child: Text('Homebrew\nComputer-Club', style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold,
               color: Colors.white
